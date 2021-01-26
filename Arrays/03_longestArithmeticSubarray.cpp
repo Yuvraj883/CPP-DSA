@@ -30,7 +30,7 @@ int main()
         }
         else if (diff == arr[i - 1] - arr[i] && diff != arr[i] - arr[i + 1])
         {
-            count += 1;
+            count += 2;
             vec.push_back(count);
             count = 1;
         }
