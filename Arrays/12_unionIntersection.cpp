@@ -3,7 +3,7 @@ using namespace std;
 // Make sure the array is sorted, before using this
 void Intersection(int *arr1, int *arr2, int n, int m)
 {
-    vector<int> interSection;
+    vector <int> interSection;
     int i = 0, j = 0;
     while (i < n && j < m)
     {
