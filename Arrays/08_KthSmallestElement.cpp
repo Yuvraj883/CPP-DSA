@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-//Sorts the array in the descending order
-void sortArr(int *arr, int n)
+//Sorts the array in the ascending order
+void selectionSort(int *arr, int n)
 {
 
     for (int i = 0; i < n; i++)
@@ -37,7 +37,7 @@ int main()
     {
         cin >> arr[i];
     }
-    sortArr(arr, n);
+    selectionSort(arr, n);
 
     int k;
     cout<<"Enter the value of k: ";
