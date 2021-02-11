@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void printArr(int *arr, int n)
+void printArr(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -8,7 +8,7 @@ void printArr(int *arr, int n)
     }
     cout << endl;
 }
-void sort012(int *arr, int n)
+void sort012(int arr[], int n)
 {
     int low = 0;
     int mid = 0;
@@ -25,6 +25,10 @@ void sort012(int *arr, int n)
             break;
         case 2:
             swap(arr[mid], arr[high--]);
+            break;
+            default: 
+            cout<<"Wrong input";
+            mid++;
             break;
         }
     }
